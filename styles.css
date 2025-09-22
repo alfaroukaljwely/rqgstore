@@ -920,7 +920,7 @@ body.using-mouse .nav-link:focus:not(:focus-visible) {
 /* Responsive Hero Section */
 @media (max-width: 992px) {
   .hero-container {
-    padding-top: 5rem;
+    padding-top: 6rem;
     flex-direction: column;
     text-align: center;
   }
