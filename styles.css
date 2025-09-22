@@ -190,7 +190,7 @@ img {
 /* Header */
 .header {
   position: fixed;
-  top: 0;
+  top: 40px; /* Height of the ticker bar */
   left: 0;
   right: 0;
   z-index: 1000;
@@ -237,7 +237,14 @@ img {
 /* Add smooth scroll behavior */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px; /* Account for fixed header */
+  scroll-padding-top: 160px; /* Header height (80px) + Ticker height (40px) + extra spacing (40px) */
+}
+
+/* Add padding to the first section to account for fixed header and ticker */
+.hero {
+  padding-top: 160px; /* Header height (80px) + Ticker height (40px) + extra spacing (40px) */
+  position: relative;
+  z-index: 1;
 }
 
 /* Focus styles for keyboard navigation */
@@ -349,6 +356,18 @@ body.using-mouse :focus:not(:focus-visible) {
   letter-spacing: -0.5px;
   transition: all 0.3s ease;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-img {
+  transform: rotate(5deg) scale(1.05);
 }
 
 .logo-text {
@@ -901,6 +920,7 @@ body.using-mouse .nav-link:focus:not(:focus-visible) {
 /* Responsive Hero Section */
 @media (max-width: 992px) {
   .hero-container {
+    padding-top: 5rem;
     flex-direction: column;
     text-align: center;
   }
@@ -956,10 +976,16 @@ body.using-mouse .nav-link:focus:not(:focus-visible) {
   color: white;
   padding: 0.75rem 0;
   overflow: hidden;
-  position: relative;
-  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001; /* Higher than header */
   box-shadow: var(--shadow-md);
   font-weight: 600;
+  height: 40px; /* Fixed height */
+  display: flex;
+  align-items: center;
 }
 
 .ticker-content {
