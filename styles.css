@@ -1143,9 +1143,21 @@ ul {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .feature-card {
@@ -1421,9 +1433,21 @@ ul {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .feature-card {
@@ -3860,7 +3884,7 @@ button {
 
 .pricing-header {
   padding: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0);
   color: #333333;
   position: relative;
   z-index: 2;
@@ -4137,8 +4161,8 @@ button {
 .pricing-card.mini-subscription-card {
   background: linear-gradient(
     145deg,
-    rgba(28, 22, 25, 0.95),
-    rgba(42, 31, 36, 0.95)
+    rgba(22, 23, 28, 0.95),
+    rgba(33, 31, 42, 0.95)
   );
   border: 2px solid rgba(245, 182, 56, 0.4);
   border-radius: 16px;
@@ -4168,7 +4192,7 @@ button {
   height: 200%;
   background: radial-gradient(
     circle,
-    rgba(245, 182, 56, 0.15) 0%,
+    rgba(56, 122, 245, 0.15) 0%,
     transparent 65%
   );
   opacity: 0;
