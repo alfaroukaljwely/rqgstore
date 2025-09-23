@@ -1201,29 +1201,30 @@ ul {
 }
 
 .feature-icon {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto 1.5rem;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   border-radius: 50%;
-  font-size: 2rem;
-  color: white;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(245, 182, 56, 0.1);
+  color: #f5b638;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
 }
 
 .feature-card h3 {
   color: var(--text-primary);
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
 }
 
 .feature-card p {
   color: var(--text-secondary);
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
 
 /* Pricing Section */
@@ -2085,26 +2086,20 @@ ul {
   }
 
   .feature-card {
-    padding: 2rem 1.5rem;
-    text-align: center;
+    padding: 1.25rem;
+    text-align: right;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
   }
 
   .feature-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    background: linear-gradient(
-      135deg,
-      rgba(245, 182, 56, 0.15) 0%,
-      rgba(230, 126, 34, 0.15) 100%
-    ) !important;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    font-size: 1.8rem;
+    flex-shrink: 0;
   }
 
   .feature-title {
@@ -2518,6 +2513,7 @@ ul {
   font-weight: 700;
   font-size: 1rem;
   text-decoration: none;
+  /* text-align: center; */
   transition: all 0.3s ease;
   margin-top: 1rem;
   border: none;
@@ -3088,6 +3084,11 @@ body {
 
 .feature-card {
   padding: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: right;
 }
 
 /* FAQ Section */
@@ -3995,9 +3996,9 @@ button {
 }
 
 .feature-icon {
-  color: #e00000;
+  color: #ffd607;
   margin-left: 0.75rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .pricing-button {
