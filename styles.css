@@ -6,8 +6,8 @@
   --accent: #ffc107; /* Amber */
   --background: #121212; /* Dark background */
   --surface: #1e1e1e; /* Slightly lighter dark */
-  --text-primary: #ffffff; /* White text */
-  --text-secondary: #b0b0b0; /* Light gray text */
+  --text-primary: #cdcdcd; /* White text */
+  --text-secondary: #dcdcdc; /* Light gray text */
   --error: #f44336; /* Red */
   --success: #4caf50; /* Green */
   --warning: #ff9800; /* Orange */
@@ -2074,7 +2074,7 @@ ul {
 }
 
 .reason-content p {
-  color: #a0a0a0;
+  color: #dfdfdf;
   font-size: 1.3rem;
   line-height: 1.7;
   transition: all 0.3s ease 0.1s;
