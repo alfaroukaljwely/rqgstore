@@ -1217,14 +1217,14 @@ ul {
 .feature-card h3 {
   color: var(--text-primary);
   margin: 0 0 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .feature-card p {
   color: var(--text-secondary);
   margin: 0;
   line-height: 1.5;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 /* Pricing Section */
@@ -2536,7 +2536,7 @@ ul {
 
 .card-features li {
   color: #e5e7eb;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   padding: 0.4rem 0;
   display: flex;
@@ -2549,7 +2549,7 @@ ul {
 
 .card-features li i {
   color: #f5b638;
-  font-size: 1rem;
+  font-size: 1.5rem;
   min-width: 1.2rem;
   text-align: center;
   margin-top: 0.25rem;
@@ -2569,7 +2569,7 @@ ul {
 /* Responsive adjustments for features */
 @media (max-width: 768px) {
   .card-features li {
-    font-size: 0.82rem;
+    font-size: 01.1rem;
     padding: 0.3rem 0;
     margin: 0 0.3rem;
   }
