@@ -1699,7 +1699,7 @@ ul {
 
 .recommendation-features i {
   color: #f5b638;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-left: 0.75rem;
   min-width: 24px;
   text-align: center;
@@ -1741,7 +1741,7 @@ ul {
   }
   
   .recommendation-features i {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -1764,7 +1764,7 @@ ul {
     font-size: 1.3rem;
   }
   .recommendation-features i {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
