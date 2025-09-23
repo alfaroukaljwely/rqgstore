@@ -1718,7 +1718,7 @@ ul {
   }
   
   .recommendation-answer {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   
   .recommendation-features p {
@@ -1728,11 +1728,11 @@ ul {
 
 @media (max-width: 768px) {
   .recommendation-question {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   
   .recommendation-answer {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   
   .recommendation-features p {
@@ -1747,12 +1747,12 @@ ul {
 
 @media (max-width: 480px) {
   .recommendation-question {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0.6rem;
   }
   
   .recommendation-answer {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5rem;
   }
   
@@ -1761,7 +1761,7 @@ ul {
     margin-bottom: 0.1rem;
   }
   .recommendation-features p span {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .recommendation-features i {
     font-size: 1rem;
@@ -2069,13 +2069,13 @@ ul {
 .reason-content h3 {
   color: #f5b638;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   transition: all 0.3s ease;
 }
 
 .reason-content p {
   color: #a0a0a0;
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   line-height: 1.7;
   transition: all 0.3s ease 0.1s;
 }
@@ -2597,9 +2597,9 @@ ul {
 }
 
 .original-price {
-  color: #9ca3af;
+  color: #d3d5d7;
   text-decoration: line-through;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .current-price {
@@ -3481,13 +3481,13 @@ body {
   color: #f5b638;
   margin-bottom: 1rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .testimonial-text {
   color: #e5e7eb;
   line-height: 1.7;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -4416,7 +4416,7 @@ button {
 
 .pricing-card.mini-subscription-card h3 {
   color: #f5b638;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin: 0.5rem 0 0.5rem;
   position: relative;
@@ -4425,7 +4425,7 @@ button {
 
 .pricing-card.mini-subscription-card .card-description {
   color: #a0a0a0;
-  font-size: 0.85rem;
+  font-size: 01.4rem;
   margin: 0 0 1rem;
   line-height: 1.5;
   max-width: 90%;
@@ -4442,7 +4442,7 @@ button {
   border-radius: 50px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   margin-top: 0.5rem;
   border: none;
@@ -4538,9 +4538,11 @@ button {
     font-size: 0.95rem;
   }
 
-  .mini-subscription-card .card-description {
-    font-size: 0.8rem;
-  }
+  /* .mini-subscription-card .card-description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0.5rem 0;
+  } */
 
   .mini-subscription-card .card-cta {
     padding: 0.4rem 1rem;
