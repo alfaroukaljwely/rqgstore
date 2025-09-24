@@ -2597,9 +2597,9 @@ ul {
 }
 
 .original-price {
-  color: #d3d5d7;
+  color: #ffffff;
   text-decoration: line-through;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 .current-price {
@@ -2645,7 +2645,7 @@ ul {
   font-weight: 700;
   font-size: 1rem;
   text-decoration: none;
-  /* text-align: center; */
+  text-align: center;
   transition: all 0.3s ease;
   margin-top: 1rem;
   border: none;
